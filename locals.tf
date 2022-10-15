@@ -13,5 +13,5 @@
 # limitations under the License.
 
 locals {
-  service = "external-dns"
+  service = var.service
 }
