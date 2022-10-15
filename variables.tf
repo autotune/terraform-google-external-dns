@@ -31,3 +31,8 @@ variable "service_account" {
   type        = string
   description = "The Kubernetes service account"
 }
+
+variable "service" {
+  type        = string
+  description = "The k8s service to use"
+}
